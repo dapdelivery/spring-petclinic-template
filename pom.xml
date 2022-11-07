@@ -61,6 +61,11 @@
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-ui</artifactId>
+      <version>1.6.12</version>
+   </dependency>
 
     <!-- Databases - Uses H2 by default -->
     <!-- Use HSQLDB instead of H2 due to CVE-2022-23221 and CVE-2021-42392 -->
